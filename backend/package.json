@@ -1,0 +1,20 @@
+{
+  "name": "coord-converter-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "dotenv": "^16.5.0",
+    "fastify": "^5.3.3",
+    "mongodb": "^6.16.0"
+  }
+}
